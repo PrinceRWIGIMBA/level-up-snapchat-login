@@ -1,0 +1,191 @@
+
+.card{
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 375px;
+    height: 812px;
+    margin: 20px auto 0; /* Add 20px top margin and center horizontally */
+}
+  
+
+ 
+
+
+
+.sample1{
+
+     width: 375px;
+     height:100px
+ }
+ .title-bar{
+     position: relative;
+     width: 375px;
+     height: 88px;
+   background-color:yellow; /* Initial background color */
+   transition: background-color 0.3s ease; /* Add transition for a smooth effect */
+ }
+
+
+ svg{
+     position: absolute;
+     padding: 15px;
+     right: 0;
+
+ }
+ .welcome{
+     
+     color: #000;
+     font-family: 'HelveticaNeue', sans-serif;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     line-height: normal;
+   
+   
+     
+ }
+ .welcome p{
+    
+     align-self: center;
+     padding: 40px;
+ }
+ .button1{
+     padding:2px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
+ }
+
+.button1 button{
+    width: 80%;
+    height: 45px;
+     flex-shrink: 0;
+     border-radius: 50px;
+     color: yellow;
+     background: #000;
+ }
+
+.trouble{
+ color: #000;
+
+ font-family: HelveticaNeue;
+ font-size: 10px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-align: center;
+}
+.or{
+ color: #BBB;
+padding-top: 40px;
+ font-family: HelveticaNeue;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-align: center;
+}
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+.wrapper .form-box{
+position: absolute;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.wrapper .form-box.login{
+    left: 0;
+    padding: 0 40px;
+}
+.input-box{
+    position: relative;
+    width: 80%;
+    height: 50px;
+
+    margin: 25px  0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+   
+    
+    pointer-events: none;
+
+
+    color: #BBB;
+
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.input-box input:focus~label,
+.form-box input:valid~label{
+    top:-5px;
+    color: #BBB;
+}
+.input-box p{
+    text-align: right;
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+
+    position: relative;
+    width: 80%;
+    height: 45px;
+    top:60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background: #BBB;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: yellow;
+    color: #000;
+}
+.form-box {
+    width: 100%;
+}
+
+.after-login-btn {
+    margin: 100px auto;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+}
